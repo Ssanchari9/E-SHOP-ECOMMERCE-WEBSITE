@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Ecommerce</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+            color: #333;
+        }
+
+        header {
+            background-color: #510534d7;
+            padding: 20px;
+            text-align: center;
+            position: fixed;
+            width: 100%;
+            z-index: 1000;
+        }
+
+        header h1 {
+            margin: 0;
+            color: #fff;
+            font-size: 36px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #fff;
+            font-size: 18px;
+        }
+
+        .about-section {
+            padding: 100px 0;
+            text-align: center;
+        }
+
+        .about-section h2{
+            position: relative;
+            top: 3vh;
+        }
+
+        .programmer {
+            display: inline-block;
+            margin: 20px;
+            border-radius: 8px;
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            max-width: 300px;
+            transition: transform 0.3s ease;
+        }
+
+        .programmer:hover {
+            transform: translateY(-5px);
+        }
+
+        .programmer img {
+            width: 150px;
+            border-radius: 50%;
+        }
+
+        .programmer h3 {
+            margin-top: 10px;
+            color: #5f033a;
+        }
+
+        .programmer p {
+            color: #666;
+            font-size: 16px;
+            line-height: 1.5;
+        }
+
+        footer {
+            background-color: #f8dced;
+            text-align: center;
+            padding: 20px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>About Us</h1>
+        <nav>
+            <ul>
+                <li><a href="/landing-page/shop-page/main.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section class="about-section">
+        <h2>Meet Our Programmers</h2>
+        <div class="programmer">
+            <img src="manav.JPG" alt="Manav Saxena">
+            <h3>Manav Saxena</h3>
+            <p>Manav is a seasoned programmer with a keen interest in backend development. He excels in problem-solving and enjoys building scalable systems.</p>
+        </div>
+        <div class="programmer">
+            <img src="sanchari.JPG" alt="Sanchari Bhunia">
+            <h3>Sanchari Bhunia</h3>
+            <p>Sanchari is a talented programmer with expertise in web development. She loves to explore new technologies and is passionate about creating user-friendly interfaces.</p>
+        </div>
+        <div class="programmer">
+            <img src="kshitij.JPG" alt="Kshitij Panday">
+            <h3>Kshitij Panday</h3>
+            <p>Kshitij is a versatile programmer skilled in both frontend and backend technologies. He has a knack for creating efficient algorithms and optimizing code.</p>
+        </div>
+        <a href="index.html" id="back">Back</a>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Ecommerce. All rights reserved.</p>
+    </footer>
+</body>
+</html>
